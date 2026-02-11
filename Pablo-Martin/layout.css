@@ -1,0 +1,61 @@
+body{
+    background-color: red;
+    margin: 0;
+    text-align: center;
+}
+nav{background-color: peru;
+margin: 0;
+padding:0;
+}
+header{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 0.2rem;
+}
+section{background-color: cornflowerblue;}
+aside{
+    background-color: aliceblue; 
+    
+}
+footer{
+    background-color: violet;
+    margin: 0;
+}
+img{width: 600
+    px;d}
+
+
+/* =====================FLEX BOX===================== */
+
+nav ul{
+    background-color: mediumorchid;
+list-style: none;
+margin: 0;
+
+display: flex;
+gap: 0.2rem;
+justify-content: flex-end;}
+
+nav li{
+    background-color: orange;
+    margin-left: 0;
+    padding: 0.4 rem;
+}
+
+/* #styling links */
+nav a {
+    background-color: aliceblue;
+    text-decoration: none;
+    padding:0.1rem;
+    display: block;
+    width:100%;
+}
+nav a:hover {
+    background-color:bisque;
+    cursor:pointer;
+    transform: scale(2.0);
+    transition:10s;
+}
