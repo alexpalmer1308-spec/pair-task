@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  font-size: 12pt;
+
+  margin: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fcfc0c;
+  padding: 1em;
+
+
+}
+
+header h1 {
+  display: flex;
+    justify-content: center;
+
+}
+
+
+
+main img{
+  width: 100%
+}
+
+form {
+  background-color:#ad9cd0;
+  padding: 0.4rem;
+  
+}
+
+main{
+  display: flex;
+}
+
+button {
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+
+
+footer img{
+  width: 2%;
+}
+
+main {
+  background-color: #ad9cd0;
+  padding: 1em;
+    padding: 0.3em;
+}
+
+
+footer {
+ display: flex;
+gap: 20%;
+background-color: red;
+padding: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+

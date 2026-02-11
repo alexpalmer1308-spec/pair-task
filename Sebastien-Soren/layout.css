@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #2a2731;
+  color: whitesmoke;
+}
+
+img
+{
+  width: 25%;
+}
+
+header
+{
+    background-color: #2a2731;
+    margin-top: 2rem;
+   
+}
+
+/* .container {
+ 
+} */
+
+/* .container li:nth-child(1)
+{
+ flex-basis: 20%;
+ flex-grow: 5;
+} */
+
+nav
+{
+  background-color: #2a2731;
+  color:aliceblue;
+  position: sticky;
+  display: flex;
+  position: fixed;
+  margin-top: -1.8rem;
+}
+
+nav li
+{
+    display: inline-flex;
+    background-color: #A52502;
+    border: solid #000B0D;
+    padding: 0.4rem;
+    list-style: none;
+
+    /* prevents line breaks */
+
+    justify-content:space-between;
+
+    flex-direction: row;
+
+     gap: 0.1rem;
+
+     flex-wrap: nowrap;
+
+    align-items: stretch;
+
+    text-align: center;
+
+    flex-basis: 100%;
+
+    
+    
+    flex-grow: 0; /* default 0 */
+
+    /* non percentiles work as * denominators */
+
+   
+  
+  
+ 
+}
+
+
+h1
+{
+  background-color: #2a2731;
+  border-radius: 90rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  margin-left: -1%;
+  margin-right: 70%;
+}
+
+h2
+{
+  background-color: #2a2731;
+  border-radius: 25rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  margin-top: -5%;
+  margin-left: -1%;
+  margin-right: 40%;
+}
+
+h1, h2
+{
+ 
+}
+
+.question
+{
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+main
+{
+  background-color: #154B52;
+  border: solid whitesmoke;
+  border-radius: 5rem;
+  margin-top: 1%;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 95%;
+
+}
+
+button
+{
+  background-color: #2a2731;
+  border-radius: 25rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  margin-top: -5%;
+  margin-left: 40%;
+  margin-right: 40%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+
+footer
+{
+
+}

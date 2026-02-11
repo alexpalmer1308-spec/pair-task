@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+background-color: rgb(110, 110, 225);
+border-style:dashed
+
+}
+main{
+    background-color: aquamarine;
+      padding: 1rem;
+
+  grid-area: main;
+}
+nav{
+background-color: salmon;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+header{
+background-color: white;
+}
+section{
+background-color: green;
+}
+aside{
+background-color: navajowhite;
+}
+footer{
+background-color: magenta;
+}
+nav ul{
+  background-color: mediumorchid;
+  list-style: none;
+  display: flex;
+  gap: 0.2rem; 
+}
+nav li{
+background-color: orange;
+margin-left: 0;
+}
+nav a{
+  background-color: aqua;
+  padding:0.4rem;
+}
+nav a:hover{
+  background-color: darkolivegreen;
+  cursor: pointer;
+}
